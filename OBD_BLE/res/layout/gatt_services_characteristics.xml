@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/gatt_service_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/gatt_service_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gatt_service_cb" />
+
+        <TextView
+            android:id="@+id/gatt_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gatt_notify_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/gatt_notify_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gatt_notify_cb" />
+
+        <TextView
+            android:id="@+id/gatt_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gatt_send_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/gatt_send_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gatt_send_cb" />
+
+        <TextView
+            android:id="@+id/gatt_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1" />
+    </LinearLayout>
+
+    <ExpandableListView
+        android:id="@+id/gatt_services_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+</LinearLayout>

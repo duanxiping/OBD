@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/rl_dialog"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/dialog_rl_shape"
+        android:orientation="vertical"
+        android:paddingBottom="10dp" >
+
+        <LinearLayout
+            android:id="@+id/ll_in_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/tv_in_search"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/device_search" />
+
+            <TextView
+                android:id="@+id/tv_in_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_in_scan"
+                android:textColor="#284958"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/btn_rl_shape"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/btn_scan"
+            android:textColor="#284958"
+            android:textSize="24sp" />
+
+        <ListView
+            android:id="@+id/lv_scan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btn_scan"
+            android:layout_below="@+id/ll_in_scan"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="0.1dip"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:overScrollMode="never" >
+        </ListView>
+    </RelativeLayout>
+
+</RelativeLayout>

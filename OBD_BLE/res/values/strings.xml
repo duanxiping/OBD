@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OBD</string>
+    
+    <!-- Dialog -->
+    <string name="dialog_pointMessage">Prompt</string>
+    <string name="dialog_cancel">cancel</string>
+    <string name="dialog_confirm">confirm</string>
+    
+    <!-- 扫描设备…… -->
+    <string name="tv_in_scan">Scanning...</string>
+    <!-- 没有发现设备。 -->
+    <string name="tv_no_devices_found">No found...</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="device_connect_timeout">Device connection timeout</string>
+    <string name="device_disconnect">Device is disconnected</string>
+     
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    
+    <string name="setting_title_tv">ICSolution QBD BT4 Demo</string>
+    <string name="gatt_services_title_tv">UUID Settings</string>
+    
+    <!-- activity_main -->
+    <string name="main_speed">SPEED/KM</string>
+    <string name="main_voltage">Battery Voltage/V</string>
+    <string name="main_temp">Coolant Temperature/°C</string>
+    <string name="main_displacement">Displacement:</string>
+    <string name="main_displacement_dialog_title">Displacement</string>
+    <string name="main_acceleration_unit">Instant fuel consumption/L/H</string>
+    <string name="main_acceleration_unit_1">Instant fuel consumption/L/100KM</string>
+    <string name="main_load">ENGINE LOAD:</string>
+    <string name="main_load_unit">%</string>
+    <string name="main_throttle_percentage">Throttle Position:</string>
+    <string name="main_mileage">The mileage:</string>
+    <string name="main_mileage_unit">m</string>
+    <string name="main_oil_wear">The Fuel consumptions:</string>
+    <string name="main_oil_wear_unit">L</string>
+    <string name="main_speed_num">Urgent accelerated times:</string>
+    <string name="main_speed_num_unit">n</string>
+    <string name="main_brake_num">Urgent Brake times:</string>
+    <string name="main_drive_time">Driving time:</string>
+    <string name="main_drive_time_unit">s</string>
+    <string name="main_device_temp">Room Temperature:</string>
+    <string name="main_device_temp_unit">°C</string>
+    <string name="main_bug_num">DTC numbers:</string>
+    <string name="main_bug_num_unit">n</string>
+    <string name="main_bug_content">Read DTC</string>
+    <string name="main_clear">Clear DTC</string>
+    <string name="main_lv_btn1">Slide</string>
+    <string name="main_lv_btn2">Stop</string>
+    
+    <!-- gatt_services_characteristics -->
+    <string name="gatt_service_cb">Service:</string>
+    <string name="gatt_notify_cb">Notification:</string>
+    <string name="gatt_send_cb">Read-Write:</string>
+    
+    
+    
+    
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <solid android:color="@color/dialog_selected_color" /> <!-- 填充色 -->
+                 <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="@dimen/dialog_radius"
+                android:bottomRightRadius="0dp" />
+
+            <stroke
+                android:width="@dimen/dialog_stroke"
+                android:color="@color/dialog_stroke_color" />
+        </shape>
+    </item>
+
+</layer-list>

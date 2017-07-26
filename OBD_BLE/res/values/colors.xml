@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 标题背景颜色 -->
+    <color name="common_head_bg_color">#3ca7eb</color>
+    <!-- 标题字体颜色 -->
+    <color name="common_head_title_color">#ffffff</color>
+    <!-- 标题按钮字体颜色 -->
+    <color name="common_head_btn_color">#ffffff</color>
+    <color name="common_head_btn_color_press">#55ffffff</color>
+    <!-- 状态栏颜色 -->
+    <color name="common_status_color">#88577dec</color>
+    <!-- 整体背景颜色 -->
+    <color name="common_bg_color">#ffffff</color>
+    <!-- 其他字体颜色 -->
+    <color name="common_text_color">#979797</color>
+    <!-- tv_line_color -->
+    <color name="tv_line_color">#DBDCDC</color>
+    
+    <!-- dialog填充色 -->
+    <color name="dialog_bg_color">#f0ffffff</color><!--整体背景填充色-->
+    <color name="dialog_stroke_color">#f0ffffff</color><!--边界色-->
+    <color name="dialogTxtColor">#16bc5c</color><!--字体色-->
+    <color name="dialog_selected_color">#e6e6e6</color><!--选中时背景填充颜色-->
+    <color name="dialog_title_bg_color">#f016bc5c</color><!--title填充色-->
+    <color name="dialog_context_color">#f29600</color><!--context填充色-->
+    
+</resources>

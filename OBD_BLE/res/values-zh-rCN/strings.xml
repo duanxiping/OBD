@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OBD</string>
+    
+    <!-- Dialog -->
+    <string name="dialog_pointMessage">提示</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_confirm">确定</string>
+    
+    <!-- 扫描设备…… -->
+    <string name="tv_in_scan">Scanning...</string>
+    <!-- 没有发现设备。 -->
+    <string name="tv_no_devices_found">No found...</string>
+    <string name="btn_scan">Scan</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="device_connect_timeout">设备连接超时</string>
+    <string name="device_disconnect">设备已断开</string>
+     
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+    
+    <string name="setting_title_tv">芯方案QBD蓝牙4.0</string>
+    <string name="gatt_services_title_tv">设置UUID</string>
+    
+    <!-- activity_main -->
+    <string name="main_speed">车辆速度/KM</string>
+    <string name="main_voltage">电瓶电压/V</string>
+    <string name="main_temp">水温/°C</string>
+    <string name="main_displacement">排量:</string>
+    <string name="main_displacement_dialog_title">排量</string>
+    <string name="main_acceleration_unit">瞬时耗油/L/H</string>
+    <string name="main_acceleration_unit_1">瞬时耗油/L/100KM</string>
+    <string name="main_load">发动机负荷：</string>
+    <string name="main_load_unit">%</string>
+    <string name="main_throttle_percentage">节气门开度：</string>
+    <string name="main_mileage">此次行车里程：</string>
+    <string name="main_mileage_unit">米</string>
+    <string name="main_oil_wear">此次油耗：</string>
+    <string name="main_oil_wear_unit">升</string>
+    <string name="main_speed_num">急加速次数：</string>
+    <string name="main_speed_num_unit">次</string>
+    <string name="main_brake_num">急刹车次数：</string>
+    <string name="main_drive_time">此次行车时间：</string>
+    <string name="main_drive_time_unit">秒</string>
+    <string name="main_device_temp">车内设备温度：</string>
+    <string name="main_device_temp_unit">°C</string>
+    <string name="main_bug_num">故障码个数：</string>
+    <string name="main_bug_num_unit">个</string>
+    <string name="main_bug_content">读取故障码</string>
+    <string name="main_clear">清除故障码</string>
+    <string name="main_lv_btn1">开始滚动</string>
+    <string name="main_lv_btn2">停止滚动</string>
+    
+    <!-- gatt_services_characteristics -->
+    <string name="gatt_service_cb">服务：</string>
+    <string name="gatt_notify_cb">通知：</string>
+    <string name="gatt_send_cb">读写：</string>
+    
+    
+    
+    
+</resources>

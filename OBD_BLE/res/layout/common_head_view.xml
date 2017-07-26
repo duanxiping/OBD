@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_head_bg_color"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/common_status_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/common_head_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.01dp"
+        android:background="@color/tv_line_color" 
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/common_head_view_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/title_rl_height"
+        android:padding="5dp" >
+
+        <LinearLayout
+            android:id="@+id/title_ll_left"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_btn_size"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/title_btn_left"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:background="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:textColor="@color/common_head_btn_color"
+                android:textSize="@dimen/title_btn_textsize" />
+
+            <TextView
+                android:id="@+id/title_tv_left"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:text="back"
+                android:textColor="@drawable/btn_right_tv"
+                android:textSize="@dimen/title_btn_textsize" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Title"
+            android:textColor="@color/common_head_title_color"
+            android:textSize="@dimen/title_tv_textsize" />
+
+        <LinearLayout
+            android:id="@+id/title_ll_right"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_btn_size"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/title_tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:gravity="center"
+                android:text="right"
+                android:textColor="@drawable/btn_right_tv"
+                android:textSize="@dimen/title_btn_textsize" />
+
+            <Button
+                android:id="@+id/title_btn_right"
+                android:layout_width="@dimen/title_btn_size"
+                android:layout_height="@dimen/title_btn_size"
+                android:background="@null"
+                android:clickable="false"
+                android:gravity="center"
+                android:textColor="@color/common_head_btn_color"
+                android:textSize="@dimen/title_btn_textsize" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

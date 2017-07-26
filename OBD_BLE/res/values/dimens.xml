@@ -1,0 +1,32 @@
+<resources>
+
+
+    <!--统一标题栏-->
+    <dimen name="title_rl_height">65dp</dimen>
+    <dimen name="title_btn_size">53dp</dimen>
+    <dimen name="title_tv_textsize">28dp</dimen>
+    <dimen name="title_btn_textsize">24dp</dimen>
+    <dimen name="tv_line_height">1dp</dimen>
+    
+    <!--dialog padding-->
+    <dimen name="dialog_radius">20dp</dimen><!--圆角半径-->
+    <dimen name="dialog_stroke">1dp</dimen><!--边线宽度-->
+    <dimen name="dialog_padding">15dp</dimen>
+    
+    <!-- activity_device -->
+    <dimen name="device_icon_size">30dp</dimen>
+    <dimen name="device_tv_size">18dp</dimen>
+    
+    <dimen name="main_icon_size">40dp</dimen>
+    
+</resources>
+
+
+
+
+
+
+
+
+
+
